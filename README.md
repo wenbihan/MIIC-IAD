@@ -21,10 +21,12 @@ In case of use, please cite our publication:
 L. Huang, D. Cheng, X. Yang, T. Lin, Y. Shi, K. Yang, B.-H. Gwee, and B. Wen, "Joint Anomaly Detection and Inpainting for Microscopy Images via Deep Self-Supervised Learning," in Proc. IEEE Int. Conf. Image Processing (ICIP), 2021.
 
 Bibtex:
+```
 @inproceedings{huang2021,
   author={Huang, Ling and Cheng, Deruo and Xulei, Yang and Tong, Lin and Yiqiong, Shi and Kaiyi Yang and Bah-Hwee, Gwee and Bihan, Wen},
   title={Joint Anomaly Detection and Inpainting for Microscopy Images via Deep Self-Supervised Learning},
   year={2021},
   booktitle={IEEE International Conference on Image processing (ICIP)}
 }
+```
 
