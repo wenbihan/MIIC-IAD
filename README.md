@@ -28,27 +28,3 @@ Bibtex:
   booktitle={IEEE International Conference on Image processing (ICIP)}
 }
 
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
---------------------------------------------------------------
-Data:
-
-Anomaly_train: 
-	a mixture of 25,160 normal and 116 abnormal images									- 	Anomaly_train/*.jpg		
-
-Anomaly_test (this is a subset of Anomaly_train):
-	1,272 normal images (a random subset of 25,160 normal images in Anomaly_train)		- 	Anomaly_test/normal_img/*.jpg
-	116 abnormal images (same as the 116 abnormal images in Anomaly_train)				- 	Anomaly_test/abnormal_img/*.jpg
-	bounding box for the anomalies in the 116 abnormal images							- 	Anomaly_test/abnormal_bbox/*_bbox.jpg
-	pixel-wise mask for the anomalies in the 116 abnormal images						-	Anomaly_test/abnormal_mask/*_mask.jpg
-	location (col, row, width, height) for the anomalies in the 116 abnormal images		-	Anomaly_test/anomalyPosition.mat
-
-Inpainting_train:
-	1,312 pairs of synthesized abnormal images and corresponding normal images			-	Inpainting_train/*.jpg
-
-Inpainting_test:
-	135 pairs of synthesized abnormal images and corresponding normal images			-	Inpainting_test/*.jpg
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
